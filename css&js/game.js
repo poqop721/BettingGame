@@ -146,7 +146,7 @@ class Game {
 class Check extends Game {
 
     checkAsset() {
-        if (Myasset <= 100) {
+        if (Myasset < 0) {
             alert('더 이상 게임을 할 수 있는 자산이 없습니다.')
             location.replace('main.html');
         }
