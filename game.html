@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="game" href="css&js/game.css">
+    <script src="css&js/modal.js"></script>
+    <script src="css&js/game.js"></script>
+    <title>Game</title>
+</head>
+
+<body>
+    <div id="modal" class="modalbackground">
+        <div class="modalbox">
+            <div class="close">X</div>
+            <div class="content">
+                <img src="images/jokbo.png" alt="jokbo" class="jokboimg">
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="results">
+        <input type="button" value="게임시작(200원)" onclick="getCard()">
+        <input type="button" value="우승자 보기" onclick="getResult()">
+        <div class="winner">우승자 : &nbsp;<div id="result"></div></div>
+        </div>
+        <img src="images/money.png" alt="돈 배경" class="moneybackground1">
+        <img src="images/money2.png" alt="돈 배경2" class="moneybackground2">
+        <div class="player1">
+            <div class="name">
+                <h2>Player 1</h2><img src="images/playerMe.png" alt="플레이어" class="otherplayerimg">
+            </div>
+            <div class="jokbo" id="p12"></div>
+            <div class="playercard">
+                <div class="card1" id="p1">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="cardimg">
+                </div>
+                <div class="card2" id="p11">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="cardimg">
+                </div>
+            <div class="cardhover" id="cardhover1">
+               <img src="images/card/cardback.jpg" alt="뒷면" class="cardimgback">
+                <img src="images/card/cardback.jpg" alt="뒷면" class="cardimgback2">
+            </div>
+
+            </div>
+            <div class="pick">
+                <h2></h2>
+            </div>
+        </div>
+        <div class="player2">
+            <div class="name">
+                <h2>Player 2</h2><img src="images/playerMe.png" alt="플레이어" class="otherplayerimg">
+            </div>
+            <div class="jokbo" id="p22"></div>
+            <div class="playercard">
+                <div class="card1" id="p2">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="cardimg">
+                </div>
+                <div class="card2" id="p21">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="cardimg">
+                </div>
+                <div class="cardhover" id="cardhover2">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="cardimgback">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="cardimgback2">
+                </div>
+            </div>
+            <div class="pick">
+                <h2></h2>
+            </div>
+        </div>
+        <div class="playerMe">
+            <div id="betted">배팅금 : 0</div>
+            <div class="myCharacter">
+                <div class="myCharacterPic">
+                    <img src="images/playerMe.png" alt="플레이어" class="playerimg">
+                </div>
+                <div class="myMoney" id="money">
+                    내 자산 : 10000
+                </div>
+            </div>
+            <div class="myCard">
+                <div class="myCard1" id="p3">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="mycardimg">
+                </div>
+                <div class="myCard2" id="p31">
+                    <img src="images/card/cardback.jpg" alt="뒷면" class="mycardimg">
+                </div>
+            </div>
+            <div class="select">
+                <input type="button" value="콜(200원)" onClick="call()" class="call"> 
+                <input type="button" value="다이" onClick="die()" class="die">
+                <input type="button" value="올인" onClick="allin()" class="allin">
+                <input type="button" value="따당(400원)" onclick="double()" class="double">
+                    <div id="number">
+                    <input type='number' class="inputnumber" disabled>
+                </div>
+                    <input type='button' value="확인" onclick="get()" class="submit">
+            </div>
+            <div class="myStatus">
+                <div class="myPick">
+                    <h2 id="mypick"></h2>
+                </div>
+                <div class="myJokbo" id="p32">
+                    
+                </div>
+            </div>
+        </div>
+        <input type="button" onClick="watchJokbo()" value="족보 보기" class="watchjokbo">
+        <input type="button" onClick="location.href='main.html'" value="돌아가기" class="goback" id="test-button">
+    </div>
+</body>
+
+</html>
