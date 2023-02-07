@@ -40,10 +40,9 @@ Java Script & CSS & HTML 로 구현한 베팅 섯다 게임.
 - 순차 다이어그램<br><br><img width="666" alt="Sequence diagram" src="https://user-images.githubusercontent.com/103736987/217262662-54976206-2b56-45bd-ab5e-b642ed18353b.png"><br><br>
 - 상태 다이어그램<br><br><img width="745" alt="State Diagram" src="https://user-images.githubusercontent.com/103736987/217262741-3964f2e8-a6fb-44d2-82e2-dbdaecf6ed69.png"><br><br>
 - 클래스 다이어그램<br><br><img width="862" alt="Class Diagram" src="https://user-images.githubusercontent.com/103736987/217262855-329141da-78b1-4d50-8230-755a3f0826ec.png"><br><br>
-
 <br>
-## 실행 화면
 
+## 실행 화면
 - 로그인 화면<br><br><img width="1280" alt="스크린샷 2023-02-07 오후 10 58 26" src="https://user-images.githubusercontent.com/103736987/217265583-e2dad5e9-0a70-4ca9-b4e9-1e8d58d15648.png"><br><br>
 - 회원가입 <br><br><img width="1280" alt="스크린샷 2023-02-07 오후 10 58 33" src="https://user-images.githubusercontent.com/103736987/217265860-28185ea5-5e03-487f-b079-f6617530bba4.png"><br><br>
 - 메인 화면 <br><br><img width="1280" alt="스크린샷 2023-02-07 오후 10 58 40" src="https://user-images.githubusercontent.com/103736987/217265969-58e6d960-2af6-41ea-ba36-754cfae548db.png"><br><br>
