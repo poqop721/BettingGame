@@ -50,8 +50,8 @@ Java Script & CSS & HTML 로 구현한 베팅 섯다 게임.
 - 게임 대기 화면<br><br><img width="1280" alt="스크린샷 2023-02-07 오후 10 58 52" src="https://user-images.githubusercontent.com/103736987/217266184-e0c64ca9-0971-4a39-a9fc-c7f504d5bb7d.png"><br><br>
 - 게임 중 화면<br><br><img width="1280" alt="스크린샷 2023-02-07 오후 10 59 08" src="https://user-images.githubusercontent.com/103736987/217266336-807157b8-dc80-4d26-84eb-6515cd7649bb.png"><br><br>
 - 족보 화면<br><br><img width="1280" alt="스크린샷 2023-02-07 오후 10 59 12" src="https://user-images.githubusercontent.com/103736987/217266406-5f12ff76-82aa-44b7-8f08-09a1d8efbe09.png"><br><br>
-
 <br>
+
 ## Betting 웹 사이트 링크<br>
 - https://poqop721.github.io/BettingGame/login.html
 
